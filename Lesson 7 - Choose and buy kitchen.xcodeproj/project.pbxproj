@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BE7D0E2980068600F51D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D0D2980068600F51D19 /* AppDelegate.swift */; };
+		A8BE7D102980068600F51D19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D0F2980068600F51D19 /* SceneDelegate.swift */; };
+		A8BE7D122980068600F51D19 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D112980068600F51D19 /* Style.swift */; };
+		A8BE7D152980068600F51D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE7D132980068600F51D19 /* Main.storyboard */; };
+		A8BE7D172980068800F51D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BE7D162980068800F51D19 /* Assets.xcassets */; };
+		A8BE7D1A2980068800F51D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE7D182980068800F51D19 /* LaunchScreen.storyboard */; };
+		A8BE7D252980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D242980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenTests.swift */; };
+		A8BE7D2F2980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D2E2980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITests.swift */; };
+		A8BE7D312980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D302980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITestsLaunchTests.swift */; };
+		A8BE7D402980078400F51D19 /* Feature furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D3F2980078400F51D19 /* Feature furniture.swift */; };
+		A8BE7D42298007FF00F51D19 /* Puchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7D41298007FF00F51D19 /* Puchase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8BE7D212980068900F51D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BE7D022980068600F51D19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BE7D092980068600F51D19;
+			remoteInfo = "Lesson 7 - Choose and buy kitchen";
+		};
+		A8BE7D2B2980068900F51D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BE7D022980068600F51D19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BE7D092980068600F51D19;
+			remoteInfo = "Lesson 7 - Choose and buy kitchen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8BE7D0A2980068600F51D19 /* Lesson 7 - Choose and buy kitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 7 - Choose and buy kitchen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BE7D0D2980068600F51D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8BE7D0F2980068600F51D19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8BE7D112980068600F51D19 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		A8BE7D142980068600F51D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8BE7D162980068800F51D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BE7D192980068800F51D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8BE7D1B2980068800F51D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BE7D202980068900F51D19 /* Lesson 7 - Choose and buy kitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 7 - Choose and buy kitchenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BE7D242980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_7___Choose_and_buy_kitchenTests.swift"; sourceTree = "<group>"; };
+		A8BE7D2A2980068900F51D19 /* Lesson 7 - Choose and buy kitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 7 - Choose and buy kitchenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BE7D2E2980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_7___Choose_and_buy_kitchenUITests.swift"; sourceTree = "<group>"; };
+		A8BE7D302980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_7___Choose_and_buy_kitchenUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		A8BE7D3F2980078400F51D19 /* Feature furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feature furniture.swift"; sourceTree = "<group>"; };
+		A8BE7D41298007FF00F51D19 /* Puchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puchase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BE7D072980068600F51D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BE7D1D2980068900F51D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BE7D272980068900F51D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BE7D012980068600F51D19 = {
+			isa = PBXGroup;
+			children = (
+				A8BE7D0C2980068600F51D19 /* Lesson 7 - Choose and buy kitchen */,
+				A8BE7D232980068900F51D19 /* Lesson 7 - Choose and buy kitchenTests */,
+				A8BE7D2D2980068900F51D19 /* Lesson 7 - Choose and buy kitchenUITests */,
+				A8BE7D0B2980068600F51D19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BE7D0B2980068600F51D19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE7D0A2980068600F51D19 /* Lesson 7 - Choose and buy kitchen.app */,
+				A8BE7D202980068900F51D19 /* Lesson 7 - Choose and buy kitchenTests.xctest */,
+				A8BE7D2A2980068900F51D19 /* Lesson 7 - Choose and buy kitchenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BE7D0C2980068600F51D19 /* Lesson 7 - Choose and buy kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE7D0D2980068600F51D19 /* AppDelegate.swift */,
+				A8BE7D0F2980068600F51D19 /* SceneDelegate.swift */,
+				A8BE7D112980068600F51D19 /* Style.swift */,
+				A8BE7D3F2980078400F51D19 /* Feature furniture.swift */,
+				A8BE7D41298007FF00F51D19 /* Puchase.swift */,
+				A8BE7D132980068600F51D19 /* Main.storyboard */,
+				A8BE7D162980068800F51D19 /* Assets.xcassets */,
+				A8BE7D182980068800F51D19 /* LaunchScreen.storyboard */,
+				A8BE7D1B2980068800F51D19 /* Info.plist */,
+			);
+			path = "Lesson 7 - Choose and buy kitchen";
+			sourceTree = "<group>";
+		};
+		A8BE7D232980068900F51D19 /* Lesson 7 - Choose and buy kitchenTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE7D242980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenTests.swift */,
+			);
+			path = "Lesson 7 - Choose and buy kitchenTests";
+			sourceTree = "<group>";
+		};
+		A8BE7D2D2980068900F51D19 /* Lesson 7 - Choose and buy kitchenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE7D2E2980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITests.swift */,
+				A8BE7D302980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITestsLaunchTests.swift */,
+			);
+			path = "Lesson 7 - Choose and buy kitchenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BE7D092980068600F51D19 /* Lesson 7 - Choose and buy kitchen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BE7D342980068900F51D19 /* Build configuration list for PBXNativeTarget "Lesson 7 - Choose and buy kitchen" */;
+			buildPhases = (
+				A8BE7D062980068600F51D19 /* Sources */,
+				A8BE7D072980068600F51D19 /* Frameworks */,
+				A8BE7D082980068600F51D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 7 - Choose and buy kitchen";
+			productName = "Lesson 7 - Choose and buy kitchen";
+			productReference = A8BE7D0A2980068600F51D19 /* Lesson 7 - Choose and buy kitchen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8BE7D1F2980068900F51D19 /* Lesson 7 - Choose and buy kitchenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BE7D372980068900F51D19 /* Build configuration list for PBXNativeTarget "Lesson 7 - Choose and buy kitchenTests" */;
+			buildPhases = (
+				A8BE7D1C2980068900F51D19 /* Sources */,
+				A8BE7D1D2980068900F51D19 /* Frameworks */,
+				A8BE7D1E2980068900F51D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BE7D222980068900F51D19 /* PBXTargetDependency */,
+			);
+			name = "Lesson 7 - Choose and buy kitchenTests";
+			productName = "Lesson 7 - Choose and buy kitchenTests";
+			productReference = A8BE7D202980068900F51D19 /* Lesson 7 - Choose and buy kitchenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8BE7D292980068900F51D19 /* Lesson 7 - Choose and buy kitchenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BE7D3A2980068900F51D19 /* Build configuration list for PBXNativeTarget "Lesson 7 - Choose and buy kitchenUITests" */;
+			buildPhases = (
+				A8BE7D262980068900F51D19 /* Sources */,
+				A8BE7D272980068900F51D19 /* Frameworks */,
+				A8BE7D282980068900F51D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BE7D2C2980068900F51D19 /* PBXTargetDependency */,
+			);
+			name = "Lesson 7 - Choose and buy kitchenUITests";
+			productName = "Lesson 7 - Choose and buy kitchenUITests";
+			productReference = A8BE7D2A2980068900F51D19 /* Lesson 7 - Choose and buy kitchenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BE7D022980068600F51D19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A8BE7D092980068600F51D19 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A8BE7D1F2980068900F51D19 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A8BE7D092980068600F51D19;
+					};
+					A8BE7D292980068900F51D19 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A8BE7D092980068600F51D19;
+					};
+				};
+			};
+			buildConfigurationList = A8BE7D052980068600F51D19 /* Build configuration list for PBXProject "Lesson 7 - Choose and buy kitchen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BE7D012980068600F51D19;
+			productRefGroup = A8BE7D0B2980068600F51D19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BE7D092980068600F51D19 /* Lesson 7 - Choose and buy kitchen */,
+				A8BE7D1F2980068900F51D19 /* Lesson 7 - Choose and buy kitchenTests */,
+				A8BE7D292980068900F51D19 /* Lesson 7 - Choose and buy kitchenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BE7D082980068600F51D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE7D1A2980068800F51D19 /* LaunchScreen.storyboard in Resources */,
+				A8BE7D172980068800F51D19 /* Assets.xcassets in Resources */,
+				A8BE7D152980068600F51D19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BE7D1E2980068900F51D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BE7D282980068900F51D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BE7D062980068600F51D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE7D122980068600F51D19 /* Style.swift in Sources */,
+				A8BE7D42298007FF00F51D19 /* Puchase.swift in Sources */,
+				A8BE7D0E2980068600F51D19 /* AppDelegate.swift in Sources */,
+				A8BE7D402980078400F51D19 /* Feature furniture.swift in Sources */,
+				A8BE7D102980068600F51D19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BE7D1C2980068900F51D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE7D252980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BE7D262980068900F51D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE7D2F2980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITests.swift in Sources */,
+				A8BE7D312980068900F51D19 /* Lesson_7___Choose_and_buy_kitchenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8BE7D222980068900F51D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BE7D092980068600F51D19 /* Lesson 7 - Choose and buy kitchen */;
+			targetProxy = A8BE7D212980068900F51D19 /* PBXContainerItemProxy */;
+		};
+		A8BE7D2C2980068900F51D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BE7D092980068600F51D19 /* Lesson 7 - Choose and buy kitchen */;
+			targetProxy = A8BE7D2B2980068900F51D19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8BE7D132980068600F51D19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BE7D142980068600F51D19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8BE7D182980068800F51D19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BE7D192980068800F51D19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BE7D322980068900F51D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BE7D332980068900F51D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BE7D352980068900F51D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 7 - Choose and buy kitchen/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-7---Choose-and-buy-kitchen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8BE7D362980068900F51D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 7 - Choose and buy kitchen/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-7---Choose-and-buy-kitchen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A8BE7D382980068900F51D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-7---Choose-and-buy-kitchenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 7 - Choose and buy kitchen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 7 - Choose and buy kitchen";
+			};
+			name = Debug;
+		};
+		A8BE7D392980068900F51D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-7---Choose-and-buy-kitchenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 7 - Choose and buy kitchen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 7 - Choose and buy kitchen";
+			};
+			name = Release;
+		};
+		A8BE7D3B2980068900F51D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-7---Choose-and-buy-kitchenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 7 - Choose and buy kitchen";
+			};
+			name = Debug;
+		};
+		A8BE7D3C2980068900F51D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-7---Choose-and-buy-kitchenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 7 - Choose and buy kitchen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BE7D052980068600F51D19 /* Build configuration list for PBXProject "Lesson 7 - Choose and buy kitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BE7D322980068900F51D19 /* Debug */,
+				A8BE7D332980068900F51D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BE7D342980068900F51D19 /* Build configuration list for PBXNativeTarget "Lesson 7 - Choose and buy kitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BE7D352980068900F51D19 /* Debug */,
+				A8BE7D362980068900F51D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BE7D372980068900F51D19 /* Build configuration list for PBXNativeTarget "Lesson 7 - Choose and buy kitchenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BE7D382980068900F51D19 /* Debug */,
+				A8BE7D392980068900F51D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BE7D3A2980068900F51D19 /* Build configuration list for PBXNativeTarget "Lesson 7 - Choose and buy kitchenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BE7D3B2980068900F51D19 /* Debug */,
+				A8BE7D3C2980068900F51D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BE7D022980068600F51D19 /* Project object */;
+}
